@@ -1,5 +1,5 @@
 plugins {
-    id("org.jetbrains.kotlin.jvm") version "1.3.72"
+    id("org.jetbrains.kotlin.jvm") version "1.4.30-RC"
     id("application")
     id("org.flywaydb.flyway") version "7.5.3"
 }
@@ -20,7 +20,7 @@ dependencies {
     implementation("org.http4k:http4k-core")
     implementation("org.http4k:http4k-server-apache")
     implementation("org.http4k:http4k-graphql:4.0.0.0")
-    implementation("com.expediagroup:graphql-kotlin-server:4.0.0-alpha.11")
+    implementation("com.expediagroup:graphql-kotlin-server:4.0.0-alpha.13")
 
     implementation("org.xerial", "sqlite-jdbc", "3.23.1")
     implementation("org.jetbrains.exposed:exposed-core:0.28.1")
