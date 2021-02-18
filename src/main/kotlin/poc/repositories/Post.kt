@@ -1,4 +1,4 @@
-package poc.repositories
+package poc.repositories.post
 
 import org.jetbrains.exposed.sql.*
 import org.jetbrains.exposed.sql.transactions.*

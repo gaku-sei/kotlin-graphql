@@ -2,7 +2,7 @@ package poc.schema
 
 import org.jetbrains.exposed.sql.*
 import org.jetbrains.exposed.sql.transactions.*
-import poc.repositories.*
+import poc.repositories.post.*
 
 class PostQuery {
   fun postById(id: Int) = Posts.getById(id = id)
